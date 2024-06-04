@@ -1,0 +1,527 @@
+@media screen and (max-width: 1024px) {
+    .header{
+        display: none;
+    }
+    .swiper-slide{
+        width: 40% !important;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .landing .dicover{
+        font-size: 17px;
+    }
+    .landing .cardImage {
+        width: 10%;
+        position: absolute;
+        top: 29%;
+        left: 41%;
+    }
+    .landing h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .landing .user{
+        font-size: 14px;
+    }
+    .landing .user i{
+        padding: 9px 8px;
+        margin-inline-start: 5px;
+        font-size: 12px;
+    }
+    .landing .parag2{
+        width: 85%;
+        font-size: 15px;
+    }
+    .landing .download{
+        padding: 15px 38px;
+        font-size: 17px;
+        margin-inline-end: 10px;
+    }
+    .landing .landLinks a{
+      font-size: 17px;
+     }
+    .landing .video img{
+        max-width: 50px;
+        margin-inline-start: 5px;
+    }
+    .landing .landImg{
+        margin-top: 20px;
+    }
+    .branding .brand {
+        display: flex;
+        flex-direction: row;
+        padding: 36px 20px;
+        padding-top: 30px;
+    }
+    .branding .brand2 {
+        padding-top: 34px;
+        padding-bottom: 49px;
+    }
+    .branding .brand .brandimg{
+        padding: 20px;
+        margin-inline-start: 10px;
+        height: fit-content;
+        margin-top: 10px;
+    }
+    .branding .brand .brandimg img{
+        width: 30px;
+    }
+    .branding .brand .brandText h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .branding .brand .brandText p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .businessText h3{
+        font-size: 30px;
+    }
+    .splide__slide img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .our .ourText h4{
+        font-size: 30px;
+    }
+    .our .ourImg{
+        margin-top: 65px;
+    }
+    .accordion-button {
+        padding-inline-end: 200px;
+        flex-direction: row-reverse;
+        background-color: transparent;
+        outline: none;
+    
+    }
+    .accordion-item .accordion-button {
+        background-color: transparent;
+        outline: none;
+        box-shadow: none;
+        text-align: justify !important;
+    }
+    .bttn2{
+        padding-inline-end: 158px;
+    }
+    .bttn3{
+        padding-inline-end: 220px;
+    }
+    .accordion{
+        margin-top: 20px;
+    }
+    .accordion-body h5{
+        font-size: 13px;
+    }
+    .divison .businessText h3{
+        font-size: 18px;
+    }
+    .divison .Text2 a {
+        font-size: 12px;
+    }
+    .divison .card1 {
+        margin-bottom: 10px;
+    }
+    .divison .card5{
+        margin-top: 0px;
+    }
+    .divison .card6{
+        background-color: #f68C201A;
+        margin-top: 0px;
+    }
+    .divison .card7{
+        margin-top: 0px;
+    }
+    .divison .card8{
+        margin-top: 0px;
+    }
+    .help h4 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    .help .parag3 {
+        font-size: 13px;
+    }
+    .help .cardImg{
+        margin-top: 45px;
+    }
+    .what .whatCard {
+        margin-bottom: 15px;
+    }
+    .goal .contact .contact1{
+        padding: 17px 100px;
+        margin: 0 20px;
+        transition: all .5s;
+        border: 1px solid transparent;
+     }
+     .goal .contact .contact2 {
+        padding: 17px 100px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .goal .teamText h5 {
+        font-size: 20px;
+    }
+    .goal .teamText p {
+        font-size: 17px;
+    }
+    .our2 .accordion-item .accordion-button {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .header{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .header{
+        display: none;
+    }
+    .swiper-slide{
+        width: 49% !important;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .landing .cardImage {
+        width: 8%;
+        position: absolute;
+        top: 26.5%;
+        left: 47%;
+    }
+    .landing .dicover{
+        font-size: 17px;
+    }
+    .landing h1{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .landing .user{
+        font-size: 12px;
+    }
+    .landing .user i{
+        padding: 9px 8px;
+        margin-inline-start: 5px;
+        font-size: 12px;
+    }
+    .landing .parag2{
+        width: 100%;
+        font-size: 15px;
+    }
+    .landing .download{
+        padding: 15px 28px;
+        font-size: 12px;
+        margin-inline-end: 10px;
+    }
+    .landing .landLinks a{
+      font-size: 12px;
+     }
+    .landing .video img{
+        max-width: 50px;
+        margin-inline-start: 5px;
+    }
+    .landing .landImg{
+        margin-top: 20px;
+    }
+    .branding .brand {
+        display: flex;
+        flex-direction: row;
+        padding: 36px 20px;
+        padding-top: 30px;
+    }
+    .branding .brand2 {
+        padding-top: 34px;
+        padding-bottom: 49px;
+    }
+    .branding .brand .brandimg{
+        padding: 20px;
+        margin-inline-start: 10px;
+        height: fit-content;
+        margin-top: 10px;
+    }
+    .branding .brand .brandimg img{
+        width: 30px;
+    }
+    .branding .brand .brandText h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .branding .brand .brandText p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .businessText h3{
+        font-size: 30px;
+    }
+    .splide__slide img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .our .ourText h4{
+        font-size: 30px;
+    }
+    .our .ourImg{
+        margin-top: 65px;
+    }
+    .accordion-button {
+        padding-inline-end: 80px;
+        flex-direction: row-reverse;
+        background-color: transparent;
+        outline: none;
+    
+    }
+    .accordion-item .accordion-button {
+        background-color: transparent;
+        outline: none;
+        box-shadow: none;
+        text-align: justify !important;
+    }
+    .bttn2{
+        padding-inline-end: 40px;
+    }
+    .bttn3{
+        padding-inline-end: 100px;
+    }
+    .accordion{
+        margin-top: 20px;
+    }
+    .accordion-body h5{
+        font-size: 13px;
+    }
+    .divison .businessText h3{
+        font-size: 18px;
+    }
+    .divison .Text2 a {
+        font-size: 12px;
+    }
+    .divison .card1 {
+        margin-bottom: 10px;
+    }
+    .divison .card5{
+        margin-top: 0px;
+    }
+    .divison .card6{
+        margin-top: 0px;
+    }
+    .divison .card7{
+        margin-top: 0px;
+    }
+    .divison .card8{
+        margin-top: 0px;
+    }
+    .help h4 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    .help .parag3 {
+        font-size: 13px;
+    }
+    .help .cardImg{
+        margin-top: 45px;
+    }
+    .what .whatCard {
+        margin-bottom: 15px;
+    }
+    .goal .contact .contact1{
+        padding: 17px 100px;
+        margin: 0 20px;
+        transition: all .5s;
+        border: 1px solid transparent;
+     }
+     .goal .contact .contact2 {
+        padding: 17px 100px;
+        text-align: center;
+        transition: all .5s;
+        margin-top: 10px;
+    }
+    .whatTeam .row .col-xl-3{
+        width: 50%;
+    }
+    .goal .teamText h5 {
+        font-size: 20px;
+    }
+    .goal .teamText p {
+        font-size: 17px;
+    }
+    .our2 .accordion-item .accordion-button {
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .header{
+        display: none;
+    }
+    .swiper-slide{
+        width: 100% !important;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .landing .cardImage {
+        width: 10%;
+        position: absolute;
+        top: 18.5%;
+        left: 1%;
+    }
+    .landing .dicover{
+        font-size: 17px;
+    }
+    .landing h1{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .landing .user{
+        font-size: 12px;
+    }
+    .landing .user i{
+        padding: 9px 8px;
+        margin-inline-start: 5px;
+        font-size: 12px;
+    }
+    .landing .parag2{
+        width: 100%;
+        font-size: 15px;
+    }
+    .landing .download{
+        padding: 15px 15px;
+        font-size: 12px;
+        margin-inline-end: 10px;
+    }
+    .landing .landLinks a{
+      font-size: 12px;
+     }
+    .landing .video img{
+        max-width: 50px;
+        margin-inline-start: 5px;
+    }
+    .landing .landImg{
+        margin-top: 20px;
+    }
+    .branding .brand {
+        display: flex;
+        flex-direction: row;
+        padding: 45px 20px;
+        padding-top: 30px;
+    }
+    .branding .brand2{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .branding .brand .brandimg{
+        padding: 20px;
+        margin-inline-start: 10px;
+        height: fit-content;
+        margin-top: 10px;
+    }
+    .branding .brand .brandimg img{
+        width: 30px;
+    }
+    .branding .brand .brandText h2{
+        font-size: 20px;
+        margin-bottom: 1px;
+    }
+    .branding .brand .brandText p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .businessText h3{
+        font-size: 30px;
+    }
+    .splide__slide img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .our .ourText h4{
+        font-size: 30px;
+    }
+    .accordion-button {
+        padding-inline-end: 80px;
+        flex-direction: row-reverse;
+        background-color: transparent;
+        outline: none;
+    
+    }
+    .accordion-item .accordion-button {
+        background-color: transparent;
+        outline: none;
+        box-shadow: none;
+        text-align: justify !important;
+    }
+    .bttn2{
+        padding-inline-end: 40px;
+    }
+    .bttn3{
+        padding-inline-end: 100px;
+    }
+    .accordion{
+        margin-top: 20px;
+    }
+    .accordion-body h5{
+        font-size: 13px;
+    }
+    .divison .businessText h3{
+        font-size: 18px;
+    }
+    .divison .Text2 a {
+        font-size: 12px;
+    }
+    .divison .card1 {
+        margin-bottom: 10px;
+    }
+    .divison .card5{
+        margin-top: 0px;
+    }
+    .divison .card6{
+        margin-top: 0px;
+    }
+    .divison .card7{
+        margin-top: 0px;
+    }
+    .divison .card8{
+        margin-top: 0px;
+    }
+    .help h4 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    .help .parag3 {
+        font-size: 13px;
+    }
+    .help .cardImg{
+        margin-top: 45px;
+    }
+    .what .whatCard {
+        margin-bottom: 15px;
+    }
+    .goal .contact .contact1{
+        padding: 17px 80px;
+        margin: 0 20px;
+        display: block;
+     }
+     .goal .contact .contact2 {
+        margin: auto;
+        width: 88%;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+    }
+    .whatTeam .row .col-xl-3{
+        width: 50%;
+    }
+    .goal .teamText h5 {
+        font-size: 16px;
+    }
+    .goal .teamText p {
+        font-size: 14px;
+    }
+    .our2 .accordion-item .accordion-button {
+        font-size: 12px;
+    }
+}
+

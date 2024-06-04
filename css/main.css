@@ -1,0 +1,28 @@
+/* vendors file */
+@import url("./vendors/all.css");
+@import url("./vendors/bootstrap.min.css");
+@import url("./vendors/fontawesome.min.css");
+@import url("./vendors/splide.min.css");
+@import url("./vendors/glider.min.css");
+/* vendors file */
+
+/* component file */
+@import url("./component/component.css");
+/* component file */
+
+/* layout file */
+@import url("./layout/header.css");
+@import url("./layout/footer.css");
+/* layout file */
+
+/* pages file */
+@import url("./pages/home.css");
+/* pages file */
+
+/* responsive file */
+@import url("./responsive/responsive.css");
+/* responsive file */
+
+/* base file */
+@import url("./base/base.css");
+/* base file */

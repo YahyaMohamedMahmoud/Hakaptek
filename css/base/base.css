@@ -1,0 +1,67 @@
+@import url("./fonts.css");
+img {
+  width: 100%;
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:IBMPlexSansArabic-Bold;
+}
+p{
+  font-family:IBMPlexSansArabic-Light;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  line-height: 1.9;
+}
+a {
+  text-decoration: none;
+  font-family:IBMPlexSansArabic-Medium;
+}
+body {
+  font-family:IBMPlexSansArabic-Medium;
+  overflow-x: hidden;
+}
+.btn {
+  text-transform: capitalize;
+}
+.m-80 {
+  margin-top: 50px;
+}
+.mt-80 {
+  margin-top: 180px;
+}
+:root{
+  --bg-color:#0f3178;
+  --main-color:#1f2f49;
+  --link-color:#4a4a4a;
+  --header-color:#e7c500;
+  --secand-color:white;
+  --third-color:#22202d;
+  --header-bg:#eff3f6;
+  --parag-color:#ffc107;
+  --swiper-navigation-size: 20px;
+}
+::placeholder{
+  font-family:IBMPlexSansArabic-Regular;
+  color: #4a4a4a94;
+  font-size: 14px;
+}

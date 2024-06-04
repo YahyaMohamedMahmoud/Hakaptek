@@ -1,0 +1,28 @@
+@font-face {
+    font-family:IBMPlexSansArabic-Light;
+    src: url(../fonts/IBMPlexSansArabic-Light.ttf);
+}
+@font-face {
+    font-family:IBMPlexSansArabic-Medium;
+    src: url(../fonts/IBMPlexSansArabic-Medium.ttf);
+}
+@font-face {
+    font-family:IBMPlexSansArabic-Regular;
+    src: url(../fonts/IBMPlexSansArabic-Regular.ttf);
+}
+@font-face {
+    font-family:IBMPlexSansArabic-Bold;
+    src: url(../fonts/IBMPlexSansArabic-Bold.ttf);
+}
+@font-face {
+    font-family:IBMPlexSansArabic-SemiBold;
+    src: url(../fonts/IBMPlexSansArabic-SemiBold.ttf);
+}
+@font-face {
+    font-family:IBMPlexSansArabic-ExtraLight;
+    src: url(../fonts/IBMPlexSansArabic-ExtraLight.ttf);
+}
+@font-face {
+    font-family:IBMPlexSansArabic-Thin;
+    src: url(../fonts/IBMPlexSansArabic-Thin.ttf);
+}
