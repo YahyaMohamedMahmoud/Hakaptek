@@ -363,10 +363,10 @@
         overflow-x: hidden;
     }
     .landing .cardImage {
-        width: 10%;
+        width: 20%;
         position: absolute;
         top: 18.5%;
-        left: 10% !important;
+        left: 10%;
     }
     .landing .dicover{
         font-size: 17px;
