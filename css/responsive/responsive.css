@@ -3,7 +3,7 @@
         display: none;
     }
     .swiper-slide{
-        width: 40% !important;
+        width: 45% !important;
     }
     body{
         overflow-x: hidden;
@@ -168,6 +168,9 @@
     }
     .our2 .accordion-item .accordion-button {
         font-size: 12px;
+    }
+        .swiper-wrapper{
+        gap: 10px;
     }
 }
 @media screen and (max-width: 992px) {
@@ -349,6 +352,9 @@
     }
     .our2 .accordion-item .accordion-button {
         font-size: 12px;
+    }
+    .swiper-wrapper{
+        gap: 10px;
     }
 
 }

@@ -23,42 +23,41 @@ new Glider(document.querySelector('.glider'), {
       next: '.glider-next'
     }
   });
-  
-
-
-
-
-
-  var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 3,
-    spaceBetween: 10,
+  const swiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
     loop: true,
-    slidesPerGroup: 1, // Move one slide at a time
+    slidesPerView: 'auto', 
+  
+    // If we need pagination
     pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+      el: '.swiper-pagination',
+      clickable: true,
     },
+  
+    // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
     },
     breakpoints: {
-        "600px": {
-            slidesPerView: 1,
-            slidesPerGroup: 1,
-            spaceBetween: 20,
+        // when window width is >= 992px (desktop)
+        992: {
+          slidesPerView: 3,
         },
-        "768px": {
+        768: {
             slidesPerView: 2,
-            slidesPerGroup: 1,
-            spaceBetween: 30,
-        },
-        "1024px": {
-            slidesPerView: 3,
-            slidesPerGroup: 1,
-            spaceBetween: 40,
-        },
-    }
-});
+          },
+          600:{
+            slidesPerView: 1,
+          }
+      },
+  });
+
 
 
