@@ -374,6 +374,9 @@
         top: 17.5%;
         left: 8%;
     }
+    .swiper-wrapper{
+        gap: 0px;
+    }
     .landing .dicover{
         font-size: 17px;
     }

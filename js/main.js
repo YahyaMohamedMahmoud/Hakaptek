@@ -55,6 +55,7 @@ new Glider(document.querySelector('.glider'), {
           },
           600:{
             slidesPerView: 1,
+            clickable: 1,
           }
       },
   });
