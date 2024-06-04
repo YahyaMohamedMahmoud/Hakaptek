@@ -375,7 +375,7 @@
         left: 8%;
     }
     .swiper-wrapper{
-        gap: 0px;
+        gap: 0px !important;
     }
     .landing .dicover{
         font-size: 17px;
