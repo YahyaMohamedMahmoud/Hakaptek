@@ -366,7 +366,7 @@
         width: 10%;
         position: absolute;
         top: 18.5%;
-        left: 10%;
+        left: 10% !important;
     }
     .landing .dicover{
         font-size: 17px;
