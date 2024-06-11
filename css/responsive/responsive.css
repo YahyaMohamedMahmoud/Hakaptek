@@ -356,6 +356,18 @@
     .swiper-wrapper{
         gap: 10px;
     }
+    .row2{
+        display: flex;
+        justify-content: center;
+    }
+    .row2 .colum{
+        width: 50%;
+    }
+    .row2 .colum .header2{
+        padding-inline-end: 0px;
+    }
+    
+
 
 }
 @media screen and (max-width: 600px) {
@@ -531,6 +543,12 @@
     }
     .our2 .accordion-item .accordion-button {
         font-size: 12px;
+    }
+    .row2{
+        display: block;
+    }
+    .row2 .colum{
+        width: 100%;
     }
 }
 

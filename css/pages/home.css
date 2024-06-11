@@ -337,6 +337,7 @@
 .what .whatCard {
     background-color: #ddf7ff;
     padding: 20px;
+    margin: 10px 5px;
 }
 .what .whatText p{
     color: var(--main-color);
@@ -433,9 +434,70 @@ margin-bottom: 10px;
     max-width: 180px !important;
 }
 
+.row2{
+    display: flex;
+    justify-content: center;
+}
+.row2 .colum{
+    width: 50%;
+}
+.row2 .colum .header2{
+    padding-inline-end: 30px;
+}
+
+.rowss{
+    overflow-x: hidden;
+}
+.swiper-pagination2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.our2 .accordion-item {
+    border-bottom: 1px solid #8686862f;
+}
+.our2  .accordion-body h5{
+    font-family:IBMPlexSansArabic-Regular;
+    line-height: 2;
+}
 
 
 
 
 
+[type=button]:focus, [type=button]:hover, [type=submit]:focus, [type=submit]:hover, button:focus, button:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
 
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.our2 .accordion-button{
+    justify-content: flex-end;
+    width: auto;
+    font-weight: 700;
+}
+.our2 .accordion-button::after{
+    margin-left: 0px;
+}
+
+.accordion-body h5 {
+    font-size: 16px;
+    width: 88%;
+    line-height: 1.5;
+    font-weight: 400 !important;
+    color: #707070;
+}
+
+
+
+/* .woocommerce div.product {
+    margin-bottom: 0;
+    position: relative;
+    margin: 0px 1.5px;
+} */
